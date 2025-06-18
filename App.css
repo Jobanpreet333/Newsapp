@@ -1,0 +1,269 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.navbar{
+  margin-top: 0px;
+}
+.container-fluid ,.navbar-expand-lg{
+  color:#E7D7C1;
+  background-color: #8C1C13;
+  margin-top: 0px;
+}
+.nav-item{
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.container1{
+  text-align: center;
+}
+.container2  img{
+    width: 300px;
+    height: 350px;
+}
+.container3 img{
+  width: 300px;
+  height: 350px;
+}
+.container2 .row{
+  margin-top: 40px;
+
+}
+.container3 .row{
+  margin-top: 40px;
+}
+.container3{
+  text-align: center;
+}
+.container3 h2{
+  margin-top: 30px;
+}
+.carousel {
+  margin-top:60px;
+}
+.container5{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(29, 29, 53);
+  color: white;
+  margin-top: 40px;
+  /* width: 80%;
+  margin: auto; */
+}
+.women{
+  margin: 40px;
+  padding-right: 30px;
+}
+.men{
+  margin: 40px;
+  padding-right: 30px;
+
+}
+.kids{
+  margin: 40px;
+  padding-right: 30px;
+
+}
+.beauty{
+  margin: 40px;
+  padding-right: 30px;
+}
+.container6{
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+button img{
+  /* border: 2px solid white; */
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  border: none;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+button{
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 20px;
+  text-decoration: none;
+  border: none;
+}
+button label{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.container7{
+  text-align: center;
+  margin-top: 80px;
+}
+.images{
+  display: flex;
+}
+.images1{
+  display: flex;
+  margin-top: 40px;
+}
+.images1 .img1{
+  width: 300px;
+  height: 300px;
+  margin-top: 150px;
+  /* padding: 30px; */
+}
+.images1 .img2{
+  width: 300px;
+  height: 500px;
+  margin-left: 20px;
+  margin-top: 80px;
+}
+.container8{
+  margin-top: 70px;
+}
+.contain1 img{
+  width: 200px;
+  height: 300px;
+  margin-left: 25px;
+  margin-right: 30px;
+}
+.contain2 img{
+  width: 200px;
+  height: 300px;
+  margin-left: 25px;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+.men1{
+  margin-top: 20px;
+  align-items: center;
+  text-align: center;
+}
+.men img{
+  width: 200px;
+  height: 300px;
+  margin-left: 30px;
+}
+.men3{
+  margin-top: 20px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.men3 .row1{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.men3 .row2{
+  margin-top: 30px;
+  display: flex;
+    justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.make1{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.make1 .row1{
+  display: flex;
+}
+.make1 img{
+  margin-top: 30px;
+  width: 180px;
+  margin: 20px;
+}
+.make2{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.kid1{
+  margin-top: 50px;
+}
+.kid1 .img1{
+  width: 200px;
+  height: 200px;
+}
+.kid1 .img2{
+  width: 300px;
+  height: 350px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.age1{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.age1 .row1{
+  display: flex;
+}
+.age1 .row1 .ag1{
+  margin: 15px;
+}
+.age2{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.age2 .row2{
+  display: flex;
+}
+.ag2 img{
+  width: 300px;
+  height: 350px;
+  margin: 20px;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
